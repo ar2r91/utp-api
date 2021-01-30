@@ -27,6 +27,7 @@ const register = async (req, res) => {
 const validate = async (req, res) => {
     try {
         const {token} = req.body;
+
         // Compare token with local seed
         await authService.verify(token);
 
