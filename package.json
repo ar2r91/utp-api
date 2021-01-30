@@ -1,0 +1,48 @@
+{
+  "name": "vmc-nodejs",
+  "version": "1.0.0",
+  "description": "Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Express",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^5.0.0",
+    "bluebird": "^3.5.2",
+    "body-parser": "^1.18.3",
+    "checkit": "^0.7.0",
+    "cors": "^2.8.4",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^6.0.0",
+    "email-templates": "^5.0.3",
+    "express": "^4.16.3",
+    "express-form-data": "^2.0.6",
+    "html-pdf": "^2.2.0",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.2.1",
+    "jszip": "^3.3.0",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.29.1",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "sequelize": "^6.5.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.2.0",
+    "xoauth2": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  }
+}
